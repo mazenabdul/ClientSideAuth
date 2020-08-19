@@ -25,21 +25,26 @@
     <div id="particles-js"></div>
     <div class="container">
 
-        <form>
+        <form id="register">
             <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Enter your name">
+            <input name="name" type="text" id="name" placeholder="Enter your name">
+            <div id="error"></div>
 
             <label for="email">E-mail</label>
-            <input type="email" id="email" placeholder="Enter your e-mail">
+            <input name="email" type="email" id="email" placeholder="Enter your e-mail">
+            <div id="mailError"></div>
 
-            <label for="email-confirm">Re-type your e-mail</label>
-            <input type="text" id="email-confirm" placeholder="Re-enter your email">
+            <label for="email-confirm">Confirm your e-mail</label>
+            <input name="email-confirm" type="text" id="email-confirm" placeholder="Re-enter your email">
+            <div id="mailConfirmError"></div>
 
             <label for="password">Password</label>
-            <input type="text" id="password" placeholder="Enter your password">
+            <input name="password" type="text" id="password" placeholder="Enter your password">
+            <div id="passwordError"></div>
 
             <label for="password-confirm">Password Confirmation</label>
             <input type="text" id="password-confirm" placeholder="Re-enter your password">
+            <div id="passwordConfirmError"></div>
 
             <button class="register-submit" type="submit">Register!</button>
 

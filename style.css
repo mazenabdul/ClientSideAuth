@@ -129,3 +129,26 @@ input {
     color: var(--light-color);
     cursor: pointer;
 }
+
+
+/* Styling Error Messages  */
+
+#error {
+    color: var(--secondary-color)
+}
+
+#mailError {
+    color: var(--secondary-color);
+}
+
+#mailConfirmError {
+    color: var(--secondary-color);
+}
+
+#passwordError {
+    color: var(--secondary-color);
+}
+
+#passwordConfirmError {
+    color: var(--secondary-color);
+}
